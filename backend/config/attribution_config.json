@@ -1,0 +1,35 @@
+{
+  "advisory_fee_bps": {
+    "default": 100,
+    "deal_size_over_1B": 85,
+    "deal_size_over_5B": 70
+  },
+  "underwriting_fee_bps": {
+    "IG_Bond": 45,
+    "HY_Bond": 125,
+    "Term_Loan_B": 200,
+    "Other_Loan": 125,
+    "Bridge": 150,
+    "Unknown": 100
+  },
+  "role_splits": {
+    "bond": {
+      "joint_bookrunner": 0.45,
+      "bookrunner": 0.40,
+      "co_manager": 0.15
+    },
+    "loan": {
+      "lead_arranger": 0.50,
+      "joint_lead_arranger": 0.35,
+      "admin_agent": 0.05,
+      "other": 0.10
+    },
+    "advisory": {
+      "lead": 0.60,
+      "co_advisor": 0.40
+    }
+  },
+  "thresholds": {
+    "fuzzy_bank_match_min": 92
+  }
+}

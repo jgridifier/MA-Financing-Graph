@@ -1,0 +1,16 @@
+.env
+
+__pycache__/
+*.py[codz]
+*$py.class
+
+# node
+.DS_Store
+node_modules/
+
+error.txt
+.next
+backend/venv
+.pytest_cache
+**/venv/*
+**/backend/venv/

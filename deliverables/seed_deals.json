@@ -1,0 +1,127 @@
+{
+  "seed_deals": [
+    {
+      "name": "Mars / Kellanova",
+      "acquirer": {"name": "Mars, Inc.", "cik": null},
+      "target": {"name": "Kellanova", "cik": "0000055986"},
+      "test_case": "Private Acquirer",
+      "form_types": ["DEFM14A", "8-K"]
+    },
+    {
+      "name": "Broadcom / VMware",
+      "acquirer": {"name": "Broadcom Inc.", "cik": "0001730168"},
+      "target": {"name": "VMware, Inc.", "cik": "0001124615"},
+      "test_case": "Massive Debt",
+      "expected_financing": "$28.4B term loan",
+      "form_types": ["8-K", "S-4", "EX-10.1"]
+    },
+    {
+      "name": "Elon Musk / Twitter",
+      "acquirer": {"name": "X Holdings", "cik": null},
+      "target": {"name": "Twitter, Inc.", "cik": "0001418091"},
+      "test_case": "Sponsor/Margin Loan",
+      "form_types": ["8-K", "DEFM14A", "13D/A"]
+    },
+    {
+      "name": "Kimberly-Clark / Kenvue",
+      "acquirer": {"name": "Kimberly-Clark Corporation", "cik": "0000055785"},
+      "target": {"name": "Kenvue Inc.", "cik": "0001944048"},
+      "test_case": "Strategic / IG",
+      "form_types": ["8-K", "S-4"]
+    },
+    {
+      "name": "CD&R / Sealed Air",
+      "acquirer": {"name": "Clayton, Dubilier & Rice", "cik": null},
+      "target": {"name": "Sealed Air Corporation", "cik": "0001011109"},
+      "test_case": "LBO / Sponsor",
+      "expected_sponsor": "CD&R",
+      "form_types": ["8-K", "DEFM14A"]
+    },
+    {
+      "name": "3G Capital / Skechers",
+      "acquirer": {"name": "3G Capital", "cik": null},
+      "target": {"name": "Skechers U.S.A., Inc.", "cik": "0001065837"},
+      "test_case": "Take-Private",
+      "expected_sponsor": "3G Capital",
+      "form_types": ["8-K", "DEFM14A"]
+    },
+    {
+      "name": "Sycamore / Walgreens",
+      "acquirer": {"name": "Sycamore Partners", "cik": null},
+      "target": {"name": "Walgreens Boots Alliance", "cik": "0001618921"},
+      "test_case": "Private Credit",
+      "expected_sponsor": "Sycamore Partners",
+      "form_types": ["8-K"]
+    },
+    {
+      "name": "Synopsys / Ansys",
+      "acquirer": {"name": "Synopsys, Inc.", "cik": "0000883241"},
+      "target": {"name": "ANSYS, Inc.", "cik": "0001013462"},
+      "test_case": "Multi-Advisor",
+      "form_types": ["8-K", "S-4"]
+    },
+    {
+      "name": "Chevron / Hess",
+      "acquirer": {"name": "Chevron Corporation", "cik": "0000004347"},
+      "target": {"name": "Hess Corporation", "cik": "0000047330"},
+      "test_case": "Mega-Deal",
+      "form_types": ["8-K", "S-4"]
+    },
+    {
+      "name": "J.M. Smucker / Hostess",
+      "acquirer": {"name": "The J.M. Smucker Company", "cik": "0000091538"},
+      "target": {"name": "Hostess Brands, Inc.", "cik": "0001644487"},
+      "test_case": "Bridge/Bond",
+      "form_types": ["8-K", "S-4"]
+    },
+    {
+      "name": "Nasdaq / Adenza",
+      "acquirer": {"name": "Nasdaq, Inc.", "cik": "0001120193"},
+      "target": {"name": "Adenza", "cik": null},
+      "test_case": "Acquisition Vehicle",
+      "form_types": ["8-K", "S-4"]
+    },
+    {
+      "name": "IBM / Confluent",
+      "acquirer": {"name": "International Business Machines Corporation", "cik": "0000051143"},
+      "target": {"name": "Confluent, Inc.", "cik": "0001699838"},
+      "test_case": "Tech M&A",
+      "form_types": ["8-K"]
+    },
+    {
+      "name": "Nippon Steel / U.S. Steel",
+      "acquirer": {"name": "Nippon Steel Corporation", "cik": null},
+      "target": {"name": "United States Steel Corporation", "cik": "0000101871"},
+      "test_case": "Cross-border",
+      "form_types": ["8-K", "DEFM14A"]
+    },
+    {
+      "name": "Pfizer / Seagen",
+      "acquirer": {"name": "Pfizer Inc.", "cik": "0000078003"},
+      "target": {"name": "Seagen Inc.", "cik": "0001060736"},
+      "test_case": "Multi-Security",
+      "form_types": ["8-K", "S-4"]
+    },
+    {
+      "name": "ServiceNow / Armis",
+      "acquirer": {"name": "ServiceNow, Inc.", "cik": "0001373715"},
+      "target": {"name": "Armis Security Ltd.", "cik": null},
+      "test_case": "Private Target",
+      "form_types": ["8-K"]
+    },
+    {
+      "name": "Palo Alto Networks / CyberArk",
+      "acquirer": {"name": "Palo Alto Networks, Inc.", "cik": "0001327567"},
+      "target": {"name": "CyberArk Software Ltd.", "cik": "0001598101"},
+      "test_case": "Cybersecurity",
+      "form_types": ["8-K", "S-4"]
+    },
+    {
+      "name": "Cencora / OneOncology",
+      "acquirer": {"name": "Cencora, Inc.", "cik": "0001140850"},
+      "target": {"name": "OneOncology", "cik": null},
+      "test_case": "Minority Stake",
+      "form_types": ["8-K"]
+    }
+  ]
+}
